@@ -1,0 +1,42 @@
+*{
+    background: #0b2429;
+}
+
+div{
+
+    width:120px;
+    height: 120px;
+    position:relative;
+    border-radius: 0 60px 60px 60px;
+
+}
+
+#a{
+    position: absolute;
+    top: 90px;
+    left:140px;
+    background: #998235;
+    transform: rotate(90deg);
+    border-radius: 0 60px 60px 60px;
+    z-index: 2;
+
+}
+
+#b{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    background: #f3ac3c;
+    transform: rotate(90deg);
+    border-radius: 0 60px 60px 60px;
+    z-index: 3;
+
+}
+
+#z{
+    position: relative;
+    top: 22px;
+    left: 192px;
+    background: #f3ac3c;
+    border-radius: 60px 60px 60px 60px;
+}
