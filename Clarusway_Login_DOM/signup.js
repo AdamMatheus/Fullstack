@@ -1,14 +1,13 @@
 // DOM Accessing
 let adi = window.document.getElementById("first_name");
-<<<<<<< HEAD
-<<<<<<< HEAD
+//<<<<<<< HEAD
+////<<<<<<< HEAD
 // window.console.log(adi);
-=======
+
 window.console.log(adi);
->>>>>>> 6bc9f02666402e340e5bd4c4ea45e007d4eb3d1a
-=======
+//>>>>>>> 
 // window.console.log(adi);
->>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
+///>>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
 // let firstNameByClass = document.getElementsByClassName("input--style-4")[0];
 // console.log(firstNameByClass);
 // let firstNameByName = document.getElementsByName("first_name")[0];
@@ -31,21 +30,19 @@ let soyadi = document.getElementById("last_name");
 // let classAttr = firstNameById.getAttribute("class");
 // console.log(classAttr);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
+// <<<<<<< HEAD
+// <<<<<<< HEAD
+// =======
+// >>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
 // adi.setAttribute("class", "redColorClass");
 // adi.setAttribute("class", "redColorClass");
 
 adi.classList.add("redColorClass");
 soyadi.classList.add("redColorClass");
-<<<<<<< HEAD
-=======
+// <<<<<<< HEAD
+// =======
 // firstNameById.setAttribute("class", "redColorClass");
->>>>>>> 6bc9f02666402e340e5bd4c4ea45e007d4eb3d1a
-=======
->>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
+
 
 // let classProp = firstNameById.className;
 // console.log(classProp);
@@ -57,8 +54,8 @@ soyadi.value = "Daniel";
 
 let fullAd = document.getElementById("full_name");
 let email = document.getElementsByName("email")[0];
-<<<<<<< HEAD
-<<<<<<< HEAD
+//<<<<<<< HEAD
+//<<<<<<< HEAD
 // console.log(adi);
 fullAd.value = `${adi.value.toUpperCase()} ${soyadi.value.toUpperCase()}`;
 // console.log(fullAd.value);
@@ -86,7 +83,7 @@ logo.setAttribute("class", "headerLogo");
 // logo.classList.add("headerClass");
 // logo.classList.remove("headerClass");
 console.log(logo.classList);
-
+nbhdsadsa
 // console.log(logo);
 headerDiv.appendChild(logo);
 
@@ -107,9 +104,9 @@ pathList.forEach((element)=>{
 });
 //=======
 console.log(adi);
-=======
+//=======
 // console.log(adi);
->>>>>>> 6b85e393fe47d79e547472d830d1a33285eb64e5
+
 fullAd.value = `${adi.value.toUpperCase()} ${soyadi.value.toUpperCase()}`;
 // console.log(fullAd.value);
 email.value = `${adi.value.toLowerCase()}.${soyadi.value.toLowerCase()}@clarusway.com`;
